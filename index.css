@@ -1,0 +1,16 @@
+tr {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+.name-col {
+  grid-column: 1;
+}
+
+.occupation-col {
+  grid-column: 2;
+}
+
+.rate-col {
+  grid-column: 3;
+}
